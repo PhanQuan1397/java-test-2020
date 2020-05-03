@@ -1,0 +1,30 @@
+/** chia theo phan tram**/
+.row {
+    width: 600px;
+    margin: auto;
+    background-color: green;
+    border: 1px solid white;
+    text-align: right;
+}
+div[class^="col-"] {
+    height: 60px;
+    background-color:rgb(218, 67, 67) ;
+    float: left;
+    border-radius: 2px;
+    border-style: solid;
+}
+.col-1 {
+    width: calc(100%/12);
+}
+.col-2 {
+    width: calc(100%/6);
+}
+.col-3 {
+    width: calc(100%/4);
+}
+.col-4 {
+    width: calc(100%/3);
+}
+.clear-fix {
+    clear: both;
+}
